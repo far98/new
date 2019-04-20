@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+    <title>گچ بری</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid mainmenu">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 rmainmenu">
+                            <ul>
+                                <li><a href="#">صفحه اصلی</a></li>
+                                <li><a href="#">خدمات</a></li>
+                                <li><a href="#">درباره ما</a></li>
+                                <li><a href="#">تماس با ما</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-8 lmainmenu">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <a href="tel:">09121122123</a>
+                                </li>
+                                <li>
+                                    <a href="mail:">info@far.com</a>
+                                    <i class="fas fa-envelope-open"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container-fluid header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span>
+                                    <h1>
+                                       انواع خدمات گچبری دستی، گچبری سنتی، گچبری کلاسیک در تهران و کرج- بازديد ومشاوره رايگان
+                                    </h1>
+                                </span>
+                            </div>
+                            <div class="col-md-6">
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 PZero">
+                                <div class="owl-carousel owl-theme" dir="ltr">
+                                    <div class="item">
+                                        <img src="img/negative-space-thumb-craftsman-wood-work-job-man-wooden-table-sander-cut-board-woodshop-pen-pencils.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/Untitled-1.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            </div>
+    </header>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/fontawesome.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                margin: 30,
+                pagination: true,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+            $(".sample").mouseover(function () {
+                $(".show").show();
+            })
+            $(".sample").mouseleave(function () {
+                $(".show").hide();
+            })
+        });
+    </script>
+
+</body>
+
+</html>
